@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HomeDataModel.h"
 
 @interface HomeTableViewCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UIImageView *smallImageView;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
+@property (nonatomic,strong) HomeDataModel *cellData;
 
 @end

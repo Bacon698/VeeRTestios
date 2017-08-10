@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCBEFA2DD78504679ED9335D /* libPods-VeeRTestios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AFE103C55F70B61D067676 /* libPods-VeeRTestios.a */; };
 		F2BE89BF1F3C4F95001FA818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE89BE1F3C4F95001FA818 /* main.m */; };
 		F2BE89C21F3C4F95001FA818 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE89C11F3C4F95001FA818 /* AppDelegate.m */; };
 		F2BE89C51F3C4F95001FA818 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE89C41F3C4F95001FA818 /* ViewController.m */; };
@@ -18,6 +19,8 @@
 		F2BE89F21F3C5207001FA818 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE89F11F3C5207001FA818 /* HomeViewController.m */; };
 		F2BE89F61F3C5539001FA818 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE89F41F3C5539001FA818 /* HomeTableViewCell.m */; };
 		F2BE89F71F3C5539001FA818 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2BE89F51F3C5539001FA818 /* HomeTableViewCell.xib */; };
+		F2BE89FF1F3C64E1001FA818 /* HomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE89FE1F3C64E1001FA818 /* HomeDataModel.m */; };
+		F2BE8A031F3CB161001FA818 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE8A021F3CB161001FA818 /* NewsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EE33D2F5620573B4F29BF07 /* Pods-VeeRTestios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeeRTestios.release.xcconfig"; path = "Pods/Target Support Files/Pods-VeeRTestios/Pods-VeeRTestios.release.xcconfig"; sourceTree = "<group>"; };
+		B7AFE103C55F70B61D067676 /* libPods-VeeRTestios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VeeRTestios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BE89BA1F3C4F95001FA818 /* VeeRTestios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeeRTestios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BE89BE1F3C4F95001FA818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2BE89C01F3C4F95001FA818 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,6 +64,11 @@
 		F2BE89F31F3C5539001FA818 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
 		F2BE89F41F3C5539001FA818 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
 		F2BE89F51F3C5539001FA818 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		F2BE89FD1F3C64E1001FA818 /* HomeDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDataModel.h; sourceTree = "<group>"; };
+		F2BE89FE1F3C64E1001FA818 /* HomeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDataModel.m; sourceTree = "<group>"; };
+		F2BE8A011F3CB161001FA818 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		F2BE8A021F3CB161001FA818 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		FB87A1320918F24AA87BE724 /* Pods-VeeRTestios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeeRTestios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VeeRTestios/Pods-VeeRTestios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBEFA2DD78504679ED9335D /* libPods-VeeRTestios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46EB21296F6BDC3A2436B76A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB87A1320918F24AA87BE724 /* Pods-VeeRTestios.debug.xcconfig */,
+				0EE33D2F5620573B4F29BF07 /* Pods-VeeRTestios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D62E1F523564E33FAA83E76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7AFE103C55F70B61D067676 /* libPods-VeeRTestios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2BE89B11F3C4F95001FA818 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +121,8 @@
 				F2BE89D61F3C4F96001FA818 /* VeeRTestiosTests */,
 				F2BE89E11F3C4F96001FA818 /* VeeRTestiosUITests */,
 				F2BE89BB1F3C4F95001FA818 /* Products */,
+				46EB21296F6BDC3A2436B76A /* Pods */,
+				4D62E1F523564E33FAA83E76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +153,10 @@
 				F2BE89F31F3C5539001FA818 /* HomeTableViewCell.h */,
 				F2BE89F41F3C5539001FA818 /* HomeTableViewCell.m */,
 				F2BE89F51F3C5539001FA818 /* HomeTableViewCell.xib */,
+				F2BE89FD1F3C64E1001FA818 /* HomeDataModel.h */,
+				F2BE89FE1F3C64E1001FA818 /* HomeDataModel.m */,
+				F2BE8A011F3CB161001FA818 /* NewsViewController.h */,
+				F2BE8A021F3CB161001FA818 /* NewsViewController.m */,
 			);
 			path = VeeRTestios;
 			sourceTree = "<group>";
@@ -160,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2BE89E71F3C4F96001FA818 /* Build configuration list for PBXNativeTarget "VeeRTestios" */;
 			buildPhases = (
+				B1F80346253F0BDECFDB8DF9 /* [CP] Check Pods Manifest.lock */,
 				F2BE89B61F3C4F95001FA818 /* Sources */,
 				F2BE89B71F3C4F95001FA818 /* Frameworks */,
 				F2BE89B81F3C4F95001FA818 /* Resources */,
+				B036E50F8FDE901D441EDBE2 /* [CP] Embed Pods Frameworks */,
+				A860530A750BCE8C341B1973 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,6 +319,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A860530A750BCE8C341B1973 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VeeRTestios/Pods-VeeRTestios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B036E50F8FDE901D441EDBE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VeeRTestios/Pods-VeeRTestios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1F80346253F0BDECFDB8DF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2BE89B61F3C4F95001FA818 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -289,9 +374,11 @@
 			files = (
 				F2BE89C51F3C4F95001FA818 /* ViewController.m in Sources */,
 				F2BE89C21F3C4F95001FA818 /* AppDelegate.m in Sources */,
+				F2BE89FF1F3C64E1001FA818 /* HomeDataModel.m in Sources */,
 				F2BE89F61F3C5539001FA818 /* HomeTableViewCell.m in Sources */,
 				F2BE89BF1F3C4F95001FA818 /* main.m in Sources */,
 				F2BE89F21F3C5207001FA818 /* HomeViewController.m in Sources */,
+				F2BE8A031F3CB161001FA818 /* NewsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +527,7 @@
 		};
 		F2BE89E81F3C4F96001FA818 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB87A1320918F24AA87BE724 /* Pods-VeeRTestios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VeeRTestios/Info.plist;
@@ -451,6 +539,7 @@
 		};
 		F2BE89E91F3C4F96001FA818 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE33D2F5620573B4F29BF07 /* Pods-VeeRTestios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VeeRTestios/Info.plist;
@@ -525,6 +614,7 @@
 				F2BE89E91F3C4F96001FA818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2BE89EA1F3C4F96001FA818 /* Build configuration list for PBXNativeTarget "VeeRTestiosTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +623,7 @@
 				F2BE89EC1F3C4F96001FA818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2BE89ED1F3C4F96001FA818 /* Build configuration list for PBXNativeTarget "VeeRTestiosUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +632,7 @@
 				F2BE89EF1F3C4F96001FA818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
